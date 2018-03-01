@@ -3,7 +3,7 @@ import CountriesList from './CountriesList';
 
 const mapStateToProps = state => {
   console.log(state);
-  return {countries: state.countries}
+  return {countries: state.countriesReducer.countries}
 };
 
 export default connect(mapStateToProps)(CountriesList);
