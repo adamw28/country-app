@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Country.css';
+import style from './country.css';
 
 const Country = (country)=>{
 	console.log(style);
