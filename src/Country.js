@@ -3,7 +3,7 @@ import style from './country.css';
 
 const Country = (country)=>{
 	console.log(style);
-	return <li><img src={country.imageUrl} alt="Country"/><span>{country.name}</span></li>
+	return <li><img className={style.single-country} src={country.imageUrl} alt="Country"/><span>{country.name}</span></li>
 };
 
 export default Country;
